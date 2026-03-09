@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.4.3:1", "", "Live Video", "EARoot/EA4/EA3/EA79.htm", "181.png", "33", "0", "", "Activity diagram0","{4B2003CB-C9C5-4001-96DD-D3E6BC270D57}");
+tocTab[tocTab.length] = new Array("0.4.3:2", "", "ActivityFinal", "EARoot/EA4/EA3/EA82.htm", "69.png", "E464", "0", "", "StateNode0","{54F37DC6-B11D-46b5-9CE5-D845DB5A1484}");
+tocTab[tocTab.length] = new Array("0.4.3:3", "", "ActivityInitial", "EARoot/EA4/EA3/EA83.htm", "68.png", "E459", "0", "", "StateNode0","{69C78D48-1D16-44b7-9DA8-F0E0C292BEA7}");
+tocTab[tocTab.length] = new Array("0.4.3:4", "", "Controller to Display Video", "EARoot/EA4/EA3/EA84.htm", "104.png", "E463", "0", "", "Action0","{44101A87-6F1F-4047-A71A-07345F51530A}");
+tocTab[tocTab.length] = new Array("0.4.3:5", "", "Tranciever to Collect Video Data", "EARoot/EA4/EA3/EA85.htm", "104.png", "E460", "0", "", "Action0","{45E95A88-5F18-49fe-BE64-1BEA226F09D3}");
+tocTab[tocTab.length] = new Array("0.4.3:6", "", "Video Data Recieved by Controller", "EARoot/EA4/EA3/EA86.htm", "24.png", "E462", "0", "", "Event0","{3D89FACF-70DB-4289-B15D-3B6235847E38}");
+tocTab[tocTab.length] = new Array("0.4.3:7", "", "Video Data Sent to Controller", "EARoot/EA4/EA3/EA87.htm", "24.png", "E461", "0", "", "Event0","{55B3E3C2-11C4-48c0-A981-1310C6D21BD0}");

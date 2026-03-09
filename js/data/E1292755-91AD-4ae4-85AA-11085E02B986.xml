@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.4:1", "", "Functional Architecture", "EARoot/EA4/EA35.htm", "175.png", "24", "0", "", "Logical diagram0","{4C5D7195-3361-410b-97C9-90AE830402C5}");
+tocTab[tocTab.length] = new Array("0.4.1", "1", "Activate Sprayer", "EARoot/EA4/EA1/EA60.htm", "4.png", "", "", "{06DFE782-9880-4575-A629-CEBBAA814728}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2", "1", "Battery Monitoring", "EARoot/EA4/EA2/EA71.htm", "4.png", "", "", "{656948CD-F9C7-41a0-B168-94E1871D0DB0}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3", "1", "Live Video", "EARoot/EA4/EA3/EA81.htm", "4.png", "", "", "{C1BF35C7-03E2-4f61-86FE-CE75E946CE71}", "Package");
+tocTab[tocTab.length] = new Array("0.4.4", "1", "Monitor Sprayer", "EARoot/EA4/EA4/EA90.htm", "4.png", "", "", "{0E65FE0F-0493-452e-B101-04B94B0C6238}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5", "1", "Normal Operation", "EARoot/EA4/EA5/EA101.htm", "4.png", "", "", "{496C7F5A-A0F6-4cff-B2BE-0856A582682C}", "Package");
+tocTab[tocTab.length] = new Array("0.4.6", "1", "Return To Home", "EARoot/EA4/EA6/EA114.htm", "4.png", "", "", "{DB27AF10-6F5B-4283-8983-F8D7D4485457}", "Package");
+tocTab[tocTab.length] = new Array("0.4.7", "1", "Telemetry Data", "EARoot/EA4/EA7/EA121.htm", "4.png", "", "", "{2F1CFFFF-0A9A-42c8-B84E-9F2FBF13608E}", "Package");
+tocTab[tocTab.length] = new Array("0.4.8", "1", "Monitor Resovoir", "EARoot/EA4/EA8/EA130.htm", "4.png", "", "", "{58D6BCD7-3E50-4aae-A51C-A895037D7BF8}", "Package");
+tocTab[tocTab.length] = new Array("0.4.9", "1", "Warnings", "EARoot/EA4/EA9/EA139.htm", "4.png", "", "", "{1D20AC68-588C-450e-B7F6-86FF66938985}", "Package");

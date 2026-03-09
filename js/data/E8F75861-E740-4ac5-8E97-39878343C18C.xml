@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.8.2.3:1", "", "«performanceRequirement» UAV_01", "EARoot/EA8/EA2/EA3/EA505.htm", "19.png", "E2", "0", "", "Requirement0","{F04B318A-65DE-4ba9-9380-84168C0D35ED}");
+tocTab[tocTab.length] = new Array("0.8.2.3:2", "", "«performanceRequirement» UAV_03", "EARoot/EA8/EA2/EA3/EA506.htm", "19.png", "E7", "0", "", "Requirement0","{CDCF8996-674B-4b31-9E60-F8C709925281}");
+tocTab[tocTab.length] = new Array("0.8.2.3:3", "", "«performanceRequirement» UAV_06", "EARoot/EA8/EA2/EA3/EA507.htm", "19.png", "E10", "0", "", "Requirement0","{36052A1C-9E10-48fe-B5FE-73515ECC73CF}");

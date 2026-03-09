@@ -1,0 +1,14 @@
+tocTab[tocTab.length] = new Array("0.4.9:1", "", "Warnings", "EARoot/EA4/EA9/EA137.htm", "181.png", "32", "0", "", "Activity diagram0","{85881812-D83E-4ac2-AF52-7B8F1EB2B8AD}");
+tocTab[tocTab.length] = new Array("0.4.9:2", "", "", "EARoot/EA4/EA9/EA140.htm", "122.png", "E452", "0", "", "Synchronization0","{79ED4BD7-E3E3-4ace-9490-9E9EDA04E9FD}");
+tocTab[tocTab.length] = new Array("0.4.9:3", "", "", "EARoot/EA4/EA9/EA141.htm", "122.png", "E455", "0", "", "Synchronization0","{35AEF96F-9EC7-4ed5-A8F9-61ADC84457E4}");
+tocTab[tocTab.length] = new Array("0.4.9:4", "", "Action1", "EARoot/EA4/EA9/EA142.htm", "104.png", "E450", "0", "", "Action0","{892FC715-5B09-4d12-AECE-9992E60511F3}");
+tocTab[tocTab.length] = new Array("0.4.9:5", "", "Flight Computer to Read Pressure Sensor", "EARoot/EA4/EA9/EA143.htm", "104.png", "E453", "0", "", "Action0","{3E3E8766-923A-423a-92D9-FB82E7050219}");
+tocTab[tocTab.length] = new Array("0.4.9:6", "", "Less than 20%?", "EARoot/EA4/EA9/EA144.htm", "56.png", "E451", "0", "", "Decision0","{ABEFF1D3-8460-4767-9D32-5C5E9DD1CF4D}");
+tocTab[tocTab.length] = new Array("0.4.9:7", "", "More than 2 bar?", "EARoot/EA4/EA9/EA145.htm", "56.png", "E454", "0", "", "Decision0","{95E5705B-17F0-411e-9278-CCD82ADE14E4}");
+tocTab[tocTab.length] = new Array("0.4.9:8", "", "ActivityFinal", "EARoot/EA4/EA9/EA146.htm", "69.png", "E449", "0", "", "StateNode0","{536BE539-1FD5-4c76-9A3E-135A655636EE}");
+tocTab[tocTab.length] = new Array("0.4.9:9", "", "ActivityInitial", "EARoot/EA4/EA9/EA147.htm", "68.png", "E443", "0", "", "StateNode0","{DF89B2D0-35AE-4b9a-8A5C-D0F535DF5117}");
+tocTab[tocTab.length] = new Array("0.4.9:10", "", "Flight Computer to Calculate Remaining Battery Life", "EARoot/EA4/EA9/EA148.htm", "104.png", "E445", "0", "", "Action0","{45348A7A-FB31-4c26-A9EA-B6C0D37B8FBC}");
+tocTab[tocTab.length] = new Array("0.4.9:11", "", "Flight Computer to Measure Battery Voltage", "EARoot/EA4/EA9/EA149.htm", "104.png", "E444", "0", "", "Action0","{AD59BDA0-FF4F-4c7e-B5E7-3115E2F9DAED}");
+tocTab[tocTab.length] = new Array("0.4.9:12", "", "Warnings Recieved by Controller", "EARoot/EA4/EA9/EA150.htm", "24.png", "E447", "0", "", "Event0","{6611BA65-264B-4487-A178-1E6E337D58AB}");
+tocTab[tocTab.length] = new Array("0.4.9:13", "", "Warnings sent to Controller", "EARoot/EA4/EA9/EA151.htm", "24.png", "E446", "0", "", "Event0","{E579325F-A863-4bf0-8CCE-94179ABE8407}");
+tocTab[tocTab.length] = new Array("0.4.9:14", "", "Warnings to be Displayed to User", "EARoot/EA4/EA9/EA152.htm", "104.png", "E448", "0", "", "Action0","{10D4DF26-E6FB-453f-9A19-D77528CAB836}");

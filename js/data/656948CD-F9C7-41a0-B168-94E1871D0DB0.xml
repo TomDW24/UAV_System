@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.4.2:1", "", "Battery Monitoring", "EARoot/EA4/EA2/EA69.htm", "181.png", "31", "0", "", "Activity diagram0","{184557D8-F525-4431-8410-A9B1EB1FE7EA}");
+tocTab[tocTab.length] = new Array("0.4.2:2", "", "ActivityFinal", "EARoot/EA4/EA2/EA72.htm", "69.png", "E439", "0", "", "StateNode0","{7B471475-3A29-4bb4-ACFB-07591B5F2A59}");
+tocTab[tocTab.length] = new Array("0.4.2:3", "", "ActivityInitial", "EARoot/EA4/EA2/EA73.htm", "68.png", "E433", "0", "", "StateNode0","{64FB2AF5-8B61-4e2b-BE29-0877BD91FBB6}");
+tocTab[tocTab.length] = new Array("0.4.2:4", "", "Battery Percentage Recieved by Controller", "EARoot/EA4/EA2/EA74.htm", "24.png", "E437", "0", "", "Event0","{D8232745-E79B-46be-8B0A-C799CB574118}");
+tocTab[tocTab.length] = new Array("0.4.2:5", "", "Battery Percentage sent to Controller", "EARoot/EA4/EA2/EA75.htm", "24.png", "E436", "0", "", "Event0","{CE03B499-F741-4c2a-8F77-D1E2151DB0B4}");
+tocTab[tocTab.length] = new Array("0.4.2:6", "", "Battery Percentage to be Displayed to User", "EARoot/EA4/EA2/EA76.htm", "104.png", "E438", "0", "", "Action0","{1881AE7D-8F63-4374-BB5F-A59E68917367}");
+tocTab[tocTab.length] = new Array("0.4.2:7", "", "Flight Computer to Calculate Remaining Battery Life", "EARoot/EA4/EA2/EA77.htm", "104.png", "E435", "0", "", "Action0","{2137FC2F-BD97-49f9-9DF0-B697E935D83E}");
+tocTab[tocTab.length] = new Array("0.4.2:8", "", "Flight Computer to Measure Battery Voltage", "EARoot/EA4/EA2/EA78.htm", "104.png", "E434", "0", "", "Action0","{21806061-FF5C-47f9-B893-877921AA08BF}");

@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.10:1", "", "12V Power", "EARoot/EA10/EA559.htm", "196.png", "E365", "0", "", "Signal0","{1BE0C8B3-6E02-493b-BBA4-2BF9BBF9DB26}");
+tocTab[tocTab.length] = new Array("0.10:2", "", "3V3 Power", "EARoot/EA10/EA560.htm", "196.png", "E370", "0", "", "Signal0","{11303584-7B00-4e98-B7DC-8456EF7C2258}");
+tocTab[tocTab.length] = new Array("0.10:3", "", "52V Power", "EARoot/EA10/EA561.htm", "196.png", "E363", "0", "", "Signal0","{8B68ABA6-7BA0-45e9-B3C9-DF6C4F39BDB8}");
+tocTab[tocTab.length] = new Array("0.10:4", "", "5V Power", "EARoot/EA10/EA562.htm", "196.png", "E364", "0", "", "Signal0","{F2A93236-DD88-4dca-89D7-5ACBEBEE8D5D}");
+tocTab[tocTab.length] = new Array("0.10:5", "", "Float High/Low", "EARoot/EA10/EA563.htm", "196.png", "E500", "0", "", "Signal0","{86B2400C-C4E2-499b-B039-321FBF590383}");
+tocTab[tocTab.length] = new Array("0.10:6", "", "I2C", "EARoot/EA10/EA564.htm", "196.png", "E369", "0", "", "Signal0","{808305B7-29DB-49a1-9EBF-799B5C51841C}");
+tocTab[tocTab.length] = new Array("0.10:7", "", "Monitoring & Control", "EARoot/EA10/EA565.htm", "196.png", "E371", "0", "", "Signal0","{0E9B5330-2C5C-4f34-B0C4-F26BE6EA4327}");
+tocTab[tocTab.length] = new Array("0.10:8", "", "Motor PWM", "EARoot/EA10/EA566.htm", "196.png", "E366", "0", "", "Signal0","{632CB6CA-9CDF-4aae-A566-022065BF61DC}");
+tocTab[tocTab.length] = new Array("0.10:9", "", "«Entity» Software", "EARoot/EA10/EA567.htm", "10.png", "E493", "0", "", "Component0","{84580B66-FE65-485c-8AFE-835E6DDB690B}");

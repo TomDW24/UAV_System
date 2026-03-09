@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.7.2.2:2", "", "«block» Camera", "EARoot/EA7/EA2/EA2/EA366.htm", "5.png", "E261", "0", "", "Class0","{B585EE53-5108-4b44-8FC3-2772776814FD}");
+tocTab[tocTab.length] = new Array("0.7.2.2:3", "", "«block» Electro-Optical", "EARoot/EA7/EA2/EA2/EA367.htm", "5.png", "E33", "0", "", "Class0","{B1742877-276C-4dd5-8C71-9A554907C859}");
+tocTab[tocTab.length] = new Array("0.7.2.2:1", "", "Electro-Optical", "EARoot/EA7/EA2/EA2/EA363.htm", "182.png", "13", "E33", "", "CompositeStructure diagram0","{C457942E-4D9B-4ac1-B159-A3BE40FF9726}");
+tocTab[tocTab.length] = new Array("0.7.2.2:4", "", "Port1", "EARoot/EA7/EA2/EA2/EA369.htm", "95.png", "E128", "E33", "", "Port0","{A46C12C5-D977-43a4-844E-B99EDE4EA67E}");
+tocTab[tocTab.length] = new Array("0.7.2.2:5", "", "Port2", "EARoot/EA7/EA2/EA2/EA370.htm", "95.png", "E129", "E33", "", "Port0","{AD5BB7DD-C6FA-4a76-A1DA-607A0B6392FF}");

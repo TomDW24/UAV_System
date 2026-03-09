@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Risks</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+		
+		document.addEventListener('DOMContentLoaded', () => {
+			const img = document.querySelector('.diagram_image img');
+			const mapAreas = document.querySelectorAll('area');
+
+			if (img && mapAreas.length > 0) {
+				//Get original and rendered image dimensions
+				const originalWidth = img.naturalWidth;
+				const originalHeight = img.naturalHeight;
+				const renderedWidth = img.clientWidth || originalWidth; 
+				const renderedHeight = img.clientHeight || originalHeight; 
+				
+				//Calculate scaling factors
+				const scaleX = renderedWidth / originalWidth;
+				const scaleY = renderedHeight / originalHeight;
+
+				//Adjust map area coordinates
+				mapAreas.forEach((area) => {
+				  const originalCoords = area.getAttribute('coords').split(',').map(Number);
+				  const scaledCoords = originalCoords.map((coord, index) =>
+					index % 2 === 0 ? coord * scaleX : coord * scaleY
+				  );
+				  area.setAttribute('coords', scaledCoords.join(','));
+				});
+			}
+		});
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Risks </h1>
+			<!-- <img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../index.htm">Model</a> / <a href="EA510.htm">Risks</a> / <a href="EA508.htm">Risks</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../images/4.png" alt="Package"/> <a href="./EA1/EA516.htm">Mitigation</a></li>
+<li><img src="../../images/4.png" alt="Package"/> <a href="./EA2/EA530.htm">Original Risks</a></li>
+<li><img src="../../images/4.png" alt="Package"/> <a href="./EA3/EA544.htm">Post Mitigation Risks</a></li>
+<li><img src="../../images/188.png" alt="Diagram"/> <a href="EA508.htm">Risks</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA509.png" usemap="#EA509" width="1397" height="3299" border="0" />
+
+<MAP NAME="EA509">
+<area shape="rect" coords="489,3081,908,3284" href="./EA1/EA521.htm" target="_self">
+<area shape="rect" coords="990,3081,1254,3284" href="./EA3/EA549.htm" target="_self">
+<area shape="rect" coords="119,3081,383,3284" href="./EA2/EA534.htm" target="_self">
+<area shape="rect" coords="489,2804,908,3006" href="./EA1/EA520.htm" target="_self">
+<area shape="rect" coords="990,2804,1254,3006" href="./EA3/EA548.htm" target="_self">
+<area shape="rect" coords="119,2804,383,3006" href="./EA2/EA533.htm" target="_self">
+<area shape="rect" coords="489,2421,908,2739" href="./EA1/EA519.htm" target="_self">
+<area shape="rect" coords="990,2421,1254,2741" href="./EA3/EA547.htm" target="_self">
+<area shape="rect" coords="119,2421,383,2739" href="./EA2/EA532.htm" target="_self">
+<area shape="rect" coords="489,2174,908,2337" href="./EA1/EA518.htm" target="_self">
+<area shape="rect" coords="986,2174,1257,2337" href="./EA3/EA546.htm" target="_self">
+<area shape="rect" coords="119,2174,383,2337" href="./EA2/EA531.htm" target="_self">
+<area shape="rect" coords="489,1937,908,2100" href="./EA1/EA529.htm" target="_self">
+<area shape="rect" coords="986,1937,1257,2100" href="./EA3/EA557.htm" target="_self">
+<area shape="rect" coords="119,1937,383,2100" href="./EA2/EA543.htm" target="_self">
+<area shape="rect" coords="489,1677,908,1841" href="./EA1/EA528.htm" target="_self">
+<area shape="rect" coords="986,1677,1257,1841" href="./EA3/EA556.htm" target="_self">
+<area shape="rect" coords="119,1677,383,1841" href="./EA2/EA542.htm" target="_self">
+<area shape="rect" coords="489,1455,908,1617" href="./EA1/EA527.htm" target="_self">
+<area shape="rect" coords="986,1455,1257,1619" href="./EA3/EA555.htm" target="_self">
+<area shape="rect" coords="119,1463,383,1607" href="./EA2/EA541.htm" target="_self">
+<area shape="rect" coords="489,1221,908,1385" href="./EA1/EA526.htm" target="_self">
+<area shape="rect" coords="986,1221,1257,1385" href="./EA3/EA554.htm" target="_self">
+<area shape="rect" coords="119,1221,383,1385" href="./EA2/EA540.htm" target="_self">
+<area shape="rect" coords="30,26,180,60" href="EA512.htm" target="_self">
+<area shape="rect" coords="489,972,908,1136" href="./EA1/EA525.htm" target="_self">
+<area shape="rect" coords="986,972,1257,1136" href="./EA3/EA553.htm" target="_self">
+<area shape="rect" coords="119,972,383,1136" href="./EA2/EA539.htm" target="_self">
+<area shape="rect" coords="489,744,906,908" href="./EA1/EA524.htm" target="_self">
+<area shape="rect" coords="986,744,1257,908" href="./EA3/EA552.htm" target="_self">
+<area shape="rect" coords="119,744,383,908" href="./EA2/EA538.htm" target="_self">
+<area shape="rect" coords="489,515,906,680" href="./EA1/EA523.htm" target="_self">
+<area shape="rect" coords="986,515,1263,678" href="./EA3/EA551.htm" target="_self">
+<area shape="rect" coords="119,515,383,680" href="./EA2/EA537.htm" target="_self">
+<area shape="rect" coords="489,318,906,458" href="./EA1/EA522.htm" target="_self">
+<area shape="rect" coords="986,318,1263,458" href="./EA3/EA550.htm" target="_self">
+<area shape="rect" coords="119,318,383,458" href="./EA2/EA536.htm" target="_self">
+<area shape="rect" coords="986,125,1263,269" href="./EA3/EA545.htm" target="_self">
+<area shape="rect" coords="489,125,906,269" href="./EA1/EA517.htm" target="_self">
+<area shape="rect" coords="119,125,383,269" href="./EA2/EA535.htm" target="_self">
+<area shape="rect" coords="15,15,1382,108" href="EA515.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Risks : Risk Taxonomy diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">17/12/2025 12:45:25</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">18/12/2025 14:28:55</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Tom.Weedon</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{29308D5E-1623-4071-A2AC-EE502A8A6364}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

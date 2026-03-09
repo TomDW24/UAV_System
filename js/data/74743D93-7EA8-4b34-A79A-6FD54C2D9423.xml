@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.5.2.1", "1", "Electrical Interfaces", "EARoot/EA5/EA2/EA1/EA198.htm", "4.png", "", "", "{24D2B3EB-110E-45d0-B61F-B391D45D7C51}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.2", "1", "Hydraulic Interfaces", "EARoot/EA5/EA2/EA2/EA207.htm", "4.png", "", "", "{A4A6B9AF-D89F-4dd4-905E-A0336290F94A}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.3", "1", "Mechanical Interfaces", "EARoot/EA5/EA2/EA3/EA212.htm", "4.png", "", "", "{36A330C3-2DA0-4f3b-A27D-7B05007A2F40}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.4", "1", "Software Interfaces", "EARoot/EA5/EA2/EA4/EA218.htm", "4.png", "", "", "{9162AC23-2332-4f1b-A71B-FEDA3E53C0C5}", "Package");

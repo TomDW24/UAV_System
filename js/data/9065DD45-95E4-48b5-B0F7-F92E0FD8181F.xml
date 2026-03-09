@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.3:1", "", "Documents", "EARoot/EA3/EA26.htm", "175.png", "19", "0", "", "Logical diagram0","{441CC9F8-B5CA-4645-8CDB-7B203CC9B515}");
+tocTab[tocTab.length] = new Array("0.3:2", "", "«Document» Customer Brief", "EARoot/EA3/EA29.htm", "82.png", "E243", "0", "", "Artifact0","{3A2DAB39-93CA-4617-969B-02EDA64D48B8}");
+tocTab[tocTab.length] = new Array("0.3:3", "", "«Document» Product Design Specification (PDS)", "EARoot/EA3/EA31.htm", "82.png", "E247", "0", "", "Artifact0","{A789E562-A3AF-414c-9C8C-FD35B38D5AA8}");

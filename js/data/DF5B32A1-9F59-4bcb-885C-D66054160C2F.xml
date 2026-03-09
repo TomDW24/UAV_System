@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.7.2.7:2", "", "«block» Motor", "EARoot/EA7/EA2/EA7/EA440.htm", "5.png", "E53", "0", "", "Class0","{B3B0F0DE-6B23-4952-929B-E392071CF647}");
+tocTab[tocTab.length] = new Array("0.7.2.7:3", "", "«block» Propeller", "EARoot/EA7/EA2/EA7/EA441.htm", "5.png", "E54", "0", "", "Class0","{C4012CFC-7A55-49ee-99CF-BA799BD2697A}");
+tocTab[tocTab.length] = new Array("0.7.2.7:4", "", "«block» Propultion", "EARoot/EA7/EA2/EA7/EA442.htm", "5.png", "E23", "0", "", "Class0","{992C283D-C889-4248-8BF6-07C4C3D63F5F}");
+tocTab[tocTab.length] = new Array("0.7.2.7:1", "", "Propultion", "EARoot/EA7/EA2/EA7/EA437.htm", "182.png", "5", "E23", "", "CompositeStructure diagram0","{7DBB9916-E87F-4e86-B533-AE36307209BC}");
+tocTab[tocTab.length] = new Array("0.7.2.7:5", "", "Port1", "EARoot/EA7/EA2/EA7/EA444.htm", "95.png", "E72", "E53", "", "Port0","{EE11B32A-C5D2-43c4-94F8-879D0512FD41}");

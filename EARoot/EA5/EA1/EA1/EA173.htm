@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Electrical Interfaces</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+		
+		document.addEventListener('DOMContentLoaded', () => {
+			const img = document.querySelector('.diagram_image img');
+			const mapAreas = document.querySelectorAll('area');
+
+			if (img && mapAreas.length > 0) {
+				//Get original and rendered image dimensions
+				const originalWidth = img.naturalWidth;
+				const originalHeight = img.naturalHeight;
+				const renderedWidth = img.clientWidth || originalWidth; 
+				const renderedHeight = img.clientHeight || originalHeight; 
+				
+				//Calculate scaling factors
+				const scaleX = renderedWidth / originalWidth;
+				const scaleY = renderedHeight / originalHeight;
+
+				//Adjust map area coordinates
+				mapAreas.forEach((area) => {
+				  const originalCoords = area.getAttribute('coords').split(',').map(Number);
+				  const scaledCoords = originalCoords.map((coord, index) =>
+					index % 2 === 0 ? coord * scaleX : coord * scaleY
+				  );
+				  area.setAttribute('coords', scaledCoords.join(','));
+				});
+			}
+		});
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Electrical Interfaces </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.htm">Model</a> / <a href="../../EA155.htm">Interfaces</a> / <a href="../EA169.htm">Product Level</a> / <a href="EA175.htm">Electrical Interfaces</a> / <a href="EA173.htm">Electrical Interfaces</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="EA173.htm">Electrical Interfaces</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA174.png" usemap="#EA174" width="1881" height="1005" border="0" />
+
+<MAP NAME="EA174">
+<area shape="rect" coords="227,597,249,620" href="../../../EA7/EA1/EA7/EA329.htm" target="_self">
+<area shape="rect" coords="363,597,386,620" href="../../../EA7/EA1/EA7/EA330.htm" target="_self">
+<area shape="rect" coords="239,522,374,627" href="../../../EA7/EA1/EA7/EA325.htm" target="_self">
+<area shape="rect" coords="1731,632,1866,737" href="../../../EA7/EA1/EA1/EA261.htm" target="_self">
+<area shape="rect" coords="1721,306,1743,329" href="../../../EA7/EA1/EA7/EA328.htm" target="_self">
+<area shape="rect" coords="1731,233,1866,338" href="../../../EA7/EA1/EA7/EA321.htm" target="_self">
+<area shape="rect" coords="1721,422,1743,444" href="../../../EA7/EA1/EA7/EA327.htm" target="_self">
+<area shape="rect" coords="1731,369,1866,465" href="../../../EA7/EA1/EA7/EA323.htm" target="_self">
+<area shape="rect" coords="951,756,974,779" href="../../../EA7/EA1/EA3/EA293.htm" target="_self">
+<area shape="rect" coords="827,695,962,800" href="../../../EA7/EA1/EA3/EA280.htm" target="_self">
+<area shape="rect" coords="1721,528,1743,551" href="../../../EA7/EA1/EA1/EA273.htm" target="_self">
+<area shape="rect" coords="1731,477,1866,573" href="../../../EA7/EA1/EA1/EA263.htm" target="_self">
+<area shape="rect" coords="996,551,1019,573" href="../../../EA7/EA1/EA5/EA313.htm" target="_self">
+<area shape="rect" coords="1115,531,1137,554" href="../../../EA7/EA1/EA5/EA312.htm" target="_self">
+<area shape="rect" coords="951,509,974,531" href="../../../EA7/EA1/EA5/EA311.htm" target="_self">
+<area shape="rect" coords="951,452,974,474" href="../../../EA7/EA1/EA5/EA314.htm" target="_self">
+<area shape="rect" coords="962,414,1125,561" href="../../../EA7/EA1/EA5/EA307.htm" target="_self">
+<area shape="rect" coords="1539,422,1562,444" href="../../../EA7/EA1/EA1/EA265.htm" target="_self">
+<area shape="rect" coords="1446,551,1469,573" href="../../../EA7/EA1/EA1/EA268.htm" target="_self">
+<area shape="rect" coords="1341,531,1364,554" href="../../../EA7/EA1/EA1/EA267.htm" target="_self">
+<area shape="rect" coords="1539,528,1562,551" href="../../../EA7/EA1/EA1/EA266.htm" target="_self">
+<area shape="rect" coords="1352,407,1550,561" href="../../../EA7/EA1/EA1/EA262.htm" target="_self">
+<area shape="rect" coords="513,333,536,356" href="../../../EA7/EA1/EA4/EA302.htm" target="_self">
+<area shape="rect" coords="666,333,689,356" href="../../../EA7/EA1/EA4/EA303.htm" target="_self">
+<area shape="rect" coords="524,290,677,386" href="../../../EA7/EA1/EA4/EA300.htm" target="_self">
+<area shape="rect" coords="479,173,722,450" href="../../../EA7/EA1/EA4/EA295.htm" target="_self">
+<area shape="rect" coords="1280,315,1302,338" href="../../../EA7/EA1/EA5/EA310.htm" target="_self">
+<area shape="rect" coords="1290,236,1445,353" href="../../../EA7/EA1/EA5/EA306.htm" target="_self">
+<area shape="rect" coords="951,315,974,338" href="../../../EA7/EA1/EA5/EA309.htm" target="_self">
+<area shape="rect" coords="1115,315,1137,338" href="../../../EA7/EA1/EA5/EA308.htm" target="_self">
+<area shape="rect" coords="962,236,1125,353" href="../../../EA7/EA1/EA5/EA305.htm" target="_self">
+<area shape="rect" coords="296,342,318,365" href="../../../EA7/EA1/EA6/EA317.htm" target="_self">
+<area shape="rect" coords="189,291,326,384" href="../../../EA7/EA1/EA6/EA316.htm" target="_self">
+<area shape="rect" coords="15,131,135,291" href="../../EA2/EA1/EA199.htm" target="_self">
+<area shape="rect" coords="510,597,533,620" href="../../../EA7/EA1/EA7/EA326.htm" target="_self">
+<area shape="rect" coords="525,521,669,630" href="../../../EA7/EA1/EA7/EA319.htm" target="_self">
+<area shape="rect" coords="1095,695,1230,800" href="../../../EA7/EA1/EA2/EA275.htm" target="_self">
+<area shape="rect" coords="1389,695,1524,800" href="../../../EA7/EA1/EA3/EA282.htm" target="_self">
+<area shape="rect" coords="1389,902,1524,990" href="../../../EA7/EA1/EA3/EA281.htm" target="_self">
+<area shape="rect" coords="39,29,189,63" href="../../EA153.htm" target="_self">
+<area shape="rect" coords="15,15,1596,108" href="EA179.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Electrical Interfaces : SysML Block Definition diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">20/01/2026 09:38:28</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">06/03/2026 12:34:37</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Tom.Weedon</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{89639C48-4E8B-4267-8893-FBA36E0EFAA4}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

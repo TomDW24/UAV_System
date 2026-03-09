@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.7.1.5:1", "", "«block» Caimcie 52V 45Ah 14S4P Lithium-Ion Battery", "EARoot/EA7/EA1/EA5/EA305.htm", "5.png", "E278", "0", "", "Class0","{1141DCB0-C2BF-437c-8EC4-F08EC2EB1F18}");
+tocTab[tocTab.length] = new Array("0.7.1.5:2", "", "«block» Caimcie Included Charger", "EARoot/EA7/EA1/EA5/EA306.htm", "5.png", "E281", "0", "", "Class0","{0288911D-C225-49d5-80D5-28CBF52F44C8}");
+tocTab[tocTab.length] = new Array("0.7.1.5:3", "", "«block» KB Custom PCB", "EARoot/EA7/EA1/EA5/EA307.htm", "5.png", "E347", "0", "", "Class0","{FB8D11FE-12C9-479d-9F22-A62A3B619F80}");
+tocTab[tocTab.length] = new Array("0.7.1.5:4", "", "Barrel Socket", "EARoot/EA7/EA1/EA5/EA308.htm", "95.png", "E282", "E278", "", "Port0","{942EF7E8-A320-46e3-9DA1-6FA05DABACBA}");
+tocTab[tocTab.length] = new Array("0.7.1.5:5", "", "X30 Socket", "EARoot/EA7/EA1/EA5/EA309.htm", "95.png", "E287", "E278", "", "Port0","{A4278A52-AEE5-4708-A6F2-EA68DCDDA129}");
+tocTab[tocTab.length] = new Array("0.7.1.5:6", "", "Barrel Plug", "EARoot/EA7/EA1/EA5/EA310.htm", "95.png", "E283", "E281", "", "Port0","{DB71ADCE-4E47-4401-A13D-BEB357A4E8DE}");
+tocTab[tocTab.length] = new Array("0.7.1.5:7", "", "TBD Connector", "EARoot/EA7/EA1/EA5/EA311.htm", "95.png", "E349", "E347", "", "Port0","{703DE51B-D5D9-4f89-A740-4D2F1E1A6538}");
+tocTab[tocTab.length] = new Array("0.7.1.5:8", "", "TBD Connector", "EARoot/EA7/EA1/EA5/EA312.htm", "95.png", "E355", "E347", "", "Port0","{120F0E8C-A08B-4099-B792-591C531F1F9B}");
+tocTab[tocTab.length] = new Array("0.7.1.5:9", "", "TBD Connector", "EARoot/EA7/EA1/EA5/EA313.htm", "95.png", "E375", "E347", "", "Port0","{C10706EE-22EB-46c5-B2A2-0F6EB5BD0CC5}");
+tocTab[tocTab.length] = new Array("0.7.1.5:10", "", "X30 Plug", "EARoot/EA7/EA1/EA5/EA314.htm", "95.png", "E348", "E347", "", "Port0","{F6D86D65-3EC9-4dd2-A98E-A3F70794F274}");

@@ -1,0 +1,13 @@
+tocTab[tocTab.length] = new Array("0.9.2:1", "", "«Risk» ID#10: Change of Legislation", "EARoot/EA9/EA2/EA531.htm", "238.png", "E188", "0", "", "Risk0","{06E2031D-7793-4b93-971D-326DAD059670}");
+tocTab[tocTab.length] = new Array("0.9.2:2", "", "«Risk» ID#11: EULA Restrictions", "EARoot/EA9/EA2/EA532.htm", "238.png", "E191", "0", "", "Risk0","{2F48A08D-FE6A-4f64-9FB9-0B105E7FE5A3}");
+tocTab[tocTab.length] = new Array("0.9.2:3", "", "«Risk» ID#12: Part Origin", "EARoot/EA9/EA2/EA533.htm", "238.png", "E194", "0", "", "Risk0","{EDBE1C91-7395-4de8-A3A5-1CD223B150FF}");
+tocTab[tocTab.length] = new Array("0.9.2:4", "", "«Risk» ID#13: NSTS Standards Access", "EARoot/EA9/EA2/EA534.htm", "238.png", "E197", "0", "", "Risk0","{318F55AF-8BAC-4cdf-84F1-2778A995A64D}");
+tocTab[tocTab.length] = new Array("0.9.2:5", "", "«Risk» ID#1: Personnel Issues", "EARoot/EA9/EA2/EA535.htm", "238.png", "E152", "0", "", "Risk0","{BB074D18-3B7A-4b56-A948-2407DACFF4CD}");
+tocTab[tocTab.length] = new Array("0.9.2:6", "", "«Risk» ID#2: Scope Creep", "EARoot/EA9/EA2/EA536.htm", "238.png", "E160", "0", "", "Risk0","{4FC1763C-AA2A-4283-BDE1-BAC72AB77D5D}");
+tocTab[tocTab.length] = new Array("0.9.2:7", "", "«Risk» ID#3: Resource Avalibility", "EARoot/EA9/EA2/EA537.htm", "238.png", "E163", "0", "", "Risk0","{F5952083-0F72-4403-B4A3-37812A86D789}");
+tocTab[tocTab.length] = new Array("0.9.2:8", "", "«Risk» ID#4: Act of God", "EARoot/EA9/EA2/EA538.htm", "238.png", "E166", "0", "", "Risk0","{954CB224-BEDE-4963-8F17-D2B5FFEE4D57}");
+tocTab[tocTab.length] = new Array("0.9.2:9", "", "«Risk» ID#5: Design/Technical Failure", "EARoot/EA9/EA2/EA539.htm", "238.png", "E169", "0", "", "Risk0","{0E6C4EFB-9DBD-4ade-9AE4-42AA5667E52C}");
+tocTab[tocTab.length] = new Array("0.9.2:10", "", "«Risk» ID#6:Technology Compatibility", "EARoot/EA9/EA2/EA540.htm", "238.png", "E174", "0", "", "Risk0","{F36615F5-54E0-4dda-B025-8D2DFE1A76CA}");
+tocTab[tocTab.length] = new Array("0.9.2:11", "", "«Risk» ID#7: Environmental Factors", "EARoot/EA9/EA2/EA541.htm", "238.png", "E177", "0", "", "Risk0","{F758DF41-F071-4eec-B5C7-4F11D32827DA}");
+tocTab[tocTab.length] = new Array("0.9.2:12", "", "«Risk» ID#8: IT Issues", "EARoot/EA9/EA2/EA542.htm", "238.png", "E181", "0", "", "Risk0","{A3982AC2-B97C-4d23-95C1-A314D0495B9D}");
+tocTab[tocTab.length] = new Array("0.9.2:13", "", "«Risk» ID#9: Stakeholder Engagement", "EARoot/EA9/EA2/EA543.htm", "238.png", "E184", "0", "", "Risk0","{9187B7CD-D4F3-4825-BF49-6AD16B25053E}");
